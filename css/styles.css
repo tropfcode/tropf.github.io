@@ -5,9 +5,8 @@
   box-sizing: border-box;
 }
 
-.menu-container
+.menu-box
 {
-  color: #fff;
   background-color: #004C98; /*Blue of Greek flag*/
   padding: 20px 0;
   display: flex;
@@ -29,54 +28,78 @@
   color: white;
 }
 
-.login
-{
-  margin-left: 20px;
-}
-
-.header-container
+.cfmip-pic-box
 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 20px 0;
+  justify-content: center;
+  background-color: white;
 }
 
-.header-text
+.conference-text-box
 {
   color: white;
   background-color: #004C98; /*Blue*/
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  padding: 20px 0;
   border: 1px solid red;
-  margin-bottom: 20px;
 }
 
-.konos
+.flag-konos-pic-box
 {
-  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
 }
 
-.important-dates
+
+
+.important-dates-box
 {
+  display: flex;
   list-style-type: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #004C98;
+  padding: 20px 0;
+  color: white;
 }
 
-.timetable
+.important-dates-list
 {
-  color: #004C98;
+  list-style-type: circle;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.important-dates-nested-list
+{
+  padding: 3px 3px 3px 17px;
+  list-style-type: circle;
+  color: white;
+}
+
+.timetable-box
+{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  border: 1px solid red;
-  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 0;
+  color: #004C98;
 }
 
-.timetable-list
+.timetable-nested-list
 {
-  list-style-type: none;
+  list-style-type: circle;
+  color: #004C98;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 3px 3px 17px;
 }
 
 /*  background-color: #004C98; /*Blue*/
